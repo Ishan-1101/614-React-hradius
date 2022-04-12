@@ -1,15 +1,21 @@
 import React from "react";
 import Popup from "reactjs-popup";
 import "./Buttons.css"
+import RefreshIcon from '@material-ui/icons/Refresh';
+
 function Buttons() {
   return (
     <div className="container">
 
       <div id="button" className="btn-group">
-        <button  className="btn1">  Predict </button>
-        <button   className="btn1">Analytics View</button>
-        <button className="btn1"  > Advanced Search</button>
+        <button  className="btn1">  PREDICT </button>
+        <button   className="btn1">ANALYTICS VIEW</button>
+        <button className="btn1"  > ADVANCED SEARCH</button>
       </div>
+
+      <button className="btn1">
+      <RefreshIcon></RefreshIcon>
+      </button>
 
       <div className="search-box" align="">
         <input
@@ -23,9 +29,9 @@ function Buttons() {
       </div>
 
       <div id="button" className="btn-group">
-        <button className="btn1"  >Add</button>
-        <button className="btn1"  > Edit</button>
-        <button className="btn1"  >Delete</button>
+        <button className="btn1"  >ADD</button>
+        <button className="btn1"  >EDIT</button>
+        <button className="btn1"  >DELETE</button>
       </div>
 
     </div>

@@ -34,10 +34,10 @@ const columns = [
 export default function Second() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    async function fetchDataApi() {
+    async function fetchData() {
       setData(await getData());
     }
-    fetchDataApi();
+    fetchData();
   }, []);
   return (
     <>
