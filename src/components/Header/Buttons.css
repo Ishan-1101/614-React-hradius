@@ -1,0 +1,30 @@
+.container {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  /* padding-bottom: 15px; */
+}
+#button {
+  display: flex;
+  border-radius: 100px;
+}
+.search-txt {
+  margin-left: 0%;
+  height: 36px;
+  border-radius: 10px 10px 10px 10px;
+}
+.btn1 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  padding-top: 1px;
+  height: 35px;
+  text-align: center;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  width: 160px;
+  font-size: medium;
+  float: right;
+}

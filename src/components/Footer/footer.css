@@ -1,0 +1,9 @@
+footer{
+    background-color: #2C4250;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: royalblue;
+}
