@@ -1,0 +1,83 @@
+/* body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+.modal-add {
+    background-color: #2A3E4C;
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+/* .MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+    color: white;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+} */
+
+
+.add-modal-content {
+    padding: 10px 0px 20px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    row-gap: 10px;
+}
+
+.add-modal-bg {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textbox {
+    background-color: white;
+    border-radius: 5px;
+    width: 15vw;
+}
+
+
+
+
+
+
+/* Add */
+
+.add-bt {
+    /* margin-top: 15px;
+    margin-left: 1vh;
+    width: 48%;
+    border-radius: 5px; */
+    background-color: transparent;
+    color: white;
+    width: 575px;
+    height: 45px;
+    border-radius: 10px 0px 0px 10px;
+    border-width: 1px;
+    font-size: large;
+}
+
+.add-bt:nth-of-type(2) {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.footer {
+    display: flex;
+
+}
+
+.add-head {
+    font-size: 30px;
+    padding-left: 20px;
+    color: azure;
+}

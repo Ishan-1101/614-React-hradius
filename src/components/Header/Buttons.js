@@ -2,6 +2,7 @@ import React from "react";
 import Popup from "reactjs-popup";
 import "./Buttons.css"
 import RefreshIcon from '@material-ui/icons/Refresh';
+import Add from "../../services/Add";
 
 function Buttons() {
   return (
@@ -13,8 +14,9 @@ function Buttons() {
         <button className="btn1"  > ADVANCED SEARCH</button>
       </div>
 
-      <button className="btn1">
-      <RefreshIcon></RefreshIcon>
+      <button className="btn1" onClick="window.location.reload();">
+      <RefreshIcon>
+      </RefreshIcon>
       </button>
 
       <div className="search-box" align="">
@@ -29,7 +31,9 @@ function Buttons() {
       </div>
 
       <div id="button" className="btn-group">
-        <button className="btn1"  >ADD</button>
+        <button className="btn1"  >ADD
+        {/* <Add /> */}
+        </button>
         <button className="btn1"  >EDIT</button>
         <button className="btn1"  >DELETE</button>
       </div>
